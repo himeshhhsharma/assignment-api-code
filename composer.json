@@ -1,0 +1,16 @@
+{
+    "name": "himesh/assignment",
+    "description": "word pdf assignment",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Himesh\\Assignment\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "tecnickcom/tcpdf": "dev-main",
+        "phpoffice/phpword": "dev-master",
+        "guzzlehttp/guzzle": "7.9.x-dev"
+    }
+}
